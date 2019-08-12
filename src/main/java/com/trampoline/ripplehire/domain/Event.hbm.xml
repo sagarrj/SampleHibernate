@@ -1,0 +1,9 @@
+<hibernate-mapping xmlns="http://www.hibernate.org/xsd/hibernate-mapping">
+    <class name="com.trampoline.ripplehire.domain.Event" table="EVENTS">
+        <id column="EVENT_ID" name="id">
+            <generator class="native"/>
+        </id>
+        <property name="date" column="EVENT_DATE" type="timestamp"></property>
+        <property name="title"/>
+    </class>
+</hibernate-mapping>
